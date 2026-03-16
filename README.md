@@ -42,11 +42,5 @@ Aplicação web fictícia voltada para organização de tarefas do dia a dia, co
 
 Estudante de Análise e Desenvolvimento de Sistemas (3º semestre), em transição de carreira para a área de tecnologia. Busco aprendizado constante através de projetos práticos e estudo contínuo de desenvolvimento web e software.
 
-\#\# Contato
-
-\> Adicione aqui seus links: LinkedIn, GitHub, e-mail, etc.
-
-\---
-
 \*Projeto desenvolvido para fins de aprendizado e portfólio profissional.\*
 
