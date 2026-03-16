@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "JetBrains Mono", monospace
+}
+header {
+    background-color: #84C1D9;
+    color: #30618C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #30618C;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+#hero a {
+    text-decoration: none;
+    color: #30618C;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#avatar{
+    border-radius: 50%;
+}
+
+#avatar:hover {
+    content: url("../img/avatarpiscando.png");
+}
+
+#texthero {
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    font-size: 30px;
+}
+
+#texthero h2 {
+    color: #30618C;
+    font-size: 50px;
+}
+
+#about {
+    background-color: #84C1D9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 40px;
+    padding: 30px;
+    color: #30618C;
+}
+
+#about p {
+    padding: 0px 40px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#skills {
+    background-color: #84C1D9;
+    padding: 40px 0;
+}
+
+#skills-flex{
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+}
+
+#skills h2 {
+    font-size: 40px;
+    padding-top: 5px;    
+    color: #30618C;
+    text-align: center;
+}
+
+#skills h3 {
+    color: #30618C;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#skills li {
+    font-size: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.projects-container{
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    background: #84C1D9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+.projects-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card h3 {
+    color: #30618C;
+    padding: 10px;
+}
+
+.card p {
+    line-height: 1.2;
+    text-align: justify;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.card a{
+    display: inline-block;
+    margin-top: 10px;
+    background: #30618C;
+    color: #84C1D9;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card a:hover {
+    display: inline-block;
+    margin-top: 10px;
+    background: #fff;
+    color: #30618C;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#projects {
+    padding: 30px;
+    text-align: center;
+}
+
+#projects h2 {
+    color: #30618C;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+#topBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    background: #30618C;
+    color: #84C1D9;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#topBtn:hover{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    background: #fff;
+    color: #30618C;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+footer {
+    background-color: #84C1D9;
+    color: #30618C;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+
